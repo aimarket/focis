@@ -31,8 +31,8 @@
           12034
         ],
         lineTension: 0,
-        backgroundColor: 'transparent',
-        borderColor: '#007bff',
+        backgroundColor: '#6c757d',
+        borderColor: '#dc3545',
         borderWidth: 4,
         pointBackgroundColor: '#007bff'
       }]
