@@ -1,4 +1,4 @@
 # focis
-website hosted on github for fun :D
+portfolio website hosted on github for fun :D
 
-https://aimarket.github.io/focis/boottest/
+https://aimarket.github.io/focis/atorres/
