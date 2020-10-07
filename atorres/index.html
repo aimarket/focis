@@ -3,43 +3,56 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
   </head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  
+  
+  
+  
 
   <body>
     
-    <nav class="navbar navbar-expand navbar-dark bg-dark flex-column flex-md-row bd-navbar">
+    <nav class="navbar navbar-expand navbar-dark bg-transparent flex-column flex-md-row bd-navbar">
             <!-- Brand -->
-            <a class="navbar-brand text-monospace" href="focis/atorres/index.html">focis</a>
+            
             
           
             <!-- Links -->
             <div class="navbar-nav-scroll">
               <ul class="navbar-nav bd-navbar-nav flex-row">
+              <a class="navbar-brand" href="focis/atorres/index.html">
+                
+                focis</a>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                   Projects
                 </a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Pomotech</a>
-                  <a class="dropdown-item" href="#">Dodecahedron</a>
-                  <a class="dropdown-item" href="#">Airsoft Turret</a>
+                <div class="dropdown-menu bg-transparent" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item text-white" href="#">Pomotech</a>
+                  <a class="dropdown-item text-white" href="#">Dodecahedron</a>
+                  <a class="dropdown-item text-white" href="#">Airsoft Turret</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages/about.html">About</a>
+                <a class="nav-link" href="/focis/atorres/pages/about.html">About</a>
               </li>
             </ul>
             </div>
             <ul class="navbar-nav ml-md-auto">
-              <a type="button" class="btn btn-outline-success" href="pages/donate.html">donate</a>
+              <a type="button" class="btn btn-outline-success" href="/focis/atorres/pages/donate.html">donate</a>
             </ul>
           </nav>
-    <h1 class="display-3">Welcome</div>
+      
+      <img src="/focis/atorres/assets/mindprojects.gif"width="600" height="600" class="img-center">
+          
     
-    
+    <canvas class="background"></canvas>
+    <script src="start.js"></script>
+    <script src="particles.min.js"></script>
   </body>
 </html>
