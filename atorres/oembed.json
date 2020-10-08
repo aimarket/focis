@@ -1,9 +1,9 @@
 {
-    "title": "potfolio",
-    "type": "photo",
-    "author_name": "Author Name Field",
+    "title": "portfolio",
+    
+    "author_name": "Alex Torres",
     "author_url": "https://discordapp.com",
  
-    "provider_name": "Provider Name Field",
+    "provider_name": "focis",
     "provider_url": "https://aimarket.github.io/focis/atorres/"
  }
