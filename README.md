@@ -1,7 +1,6 @@
 # focis
-portfolio website hosted on github for fun :D
+This is the github repository to my protfolio webpage hosted by github pages.
 
-https://aimarket.github.io/focis/atorres/
+[Static live demo](https://aimarket.github.io/focis/atorres/)
 
-*TODO:
-Finish pages that are "Under Construction"
+[Dynamic webpage repositoy](https://github.com/aimarket/focis.io)
